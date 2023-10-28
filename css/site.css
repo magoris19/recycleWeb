@@ -118,12 +118,17 @@ h1{
     margin-top: 50px;
 }
 
-.cardsCss{
+.cardsArea{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 15%;
+    align-content: center;
 }
 
+a:link{
+    color:#27AE60;
+}
 
 /* .parceiros{
     background-size: cover;
