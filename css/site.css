@@ -15,14 +15,14 @@ body {
 }
 
 .verdepadrao {
-   background-color: #27AE60;
+    background-color: #27AE60;
 }
 
 .linkverde {
     color: #27AE60;
 }
 
-.form-check-input:hover{
+.form-check-input:hover {
     background-color: rgba(92, 245, 156, 0.397);
     border-color: rgba(92, 245, 156, 0.397);
 }
@@ -39,7 +39,7 @@ body {
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #5c636a;
     --bs-btn-hover-border-color: #565e64;
-    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #565e64;
     --bs-btn-active-border-color: #51585e;
@@ -56,7 +56,7 @@ body {
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #27AE60;
     --bs-btn-hover-border-color: #27AE60;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #27AE60;
     --bs-btn-active-border-color: #27AE60;
@@ -66,35 +66,37 @@ body {
     --bs-btn-disabled-border-color: #27ae5fa8;
 }
 
-select{
+select {
     border-radius: 5px;
 }
 
-select:focus, select:hover {
+select:focus,
+select:hover {
     border: 1px solid #27AE60;
     outline: 1px solid #27AE60;
     border-radius: 5px;
- }
+}
 
 
 
- .container-fluid2{
-    width: 100%;    
+.container-fluid2 {
+    width: 100%;
     color: rgb(247, 243, 243);
     text-align: center;
 }
- 
-h1{
+
+h1 {
     font-size: 106px;
 }
 
 
-.wel, .come {
+.wel,
+.come {
     font-size: 85px;
-    text-shadow:4px 4px 10px black;
+    text-shadow: 4px 4px 10px black;
 }
 
-.b1{
+.b1 {
     border-radius: 50px;
     background-color: #27AE60;
     border: solid #27AE60;
@@ -106,7 +108,7 @@ h1{
     box-shadow: 4px 4px 10px black;
 }
 
-.b2{
+.b2 {
     border-radius: 50px;
     border: solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -118,16 +120,47 @@ h1{
     margin-top: 50px;
 }
 
-.cardsArea{
+.cardsArea {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 5%;
     align-content: center;
 }
 
-a:link{
-    color:#27AE60;
+a:link {
+    color: #27AE60;
+}
+
+a:visited {
+    color: #21834a;
+}
+
+.tituloSB {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.rodapeSB {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.rodapeSBG {
+    display: flex;
+    margin-top: 50px;
+    color: white;
+}
+
+h6 {
+    font-size: 25px;
 }
 
 /* .parceiros{
