@@ -144,7 +144,7 @@
 
 
      
-     <button  type="button"  class="b3" data-bs-toggle="modal" data-bs-target="#exampleModal" >$ </button>
+     <button id="button" type="button"  class="b3" data-bs-toggle="modal" data-bs-target="#exampleModal" >$ </button>
 
      <!-- Modal do arthur -->
      <div
@@ -266,11 +266,27 @@
        </div>
      </div>
 
+       
+
         <!-- Whatsapp -->
-        <div id="WAButton" class="whats" >
+     <div id="WAButton" class="whats" >
    
-        </div>
-        
+     </div>
+
+
+     
+     <button id="button" type="button"  class="b3" data-bs-toggle="modal" data-bs-target="#exampleModal" >$ </button>
+
+     <script> $(function() {
+      // SETUP
+      var $span ; 
+      $span = $('#button, #WAButton');  
+                
+      $('#button, #WAButton').hide().each(function(index) { 
+        $(this).delay(450 * index).fadeIn(1600); 
+      });
+  });
+  </script>
   
      
     <script src="js/index.js"></script>

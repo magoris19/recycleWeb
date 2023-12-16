@@ -24,12 +24,3 @@ function adicionarItem() {
   document.getElementById("meuInput").value = "";
 }
 
- $(function() {
-    // SETUP
-    var $span ; 
-    $span = $(' span , p');  
-              
-    $('span, p').hide().each(function(index) { 
-      $(this).delay(450 * index).fadeIn(1600); 
-    });
-});
