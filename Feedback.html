@@ -121,6 +121,129 @@
      <div id="WAButton" class="whats" >
    
      </div>
+
+     <button  type="button"  class="b3" data-bs-toggle="modal" data-bs-target="#exampleModal" >$ </button>
+
+     <!-- Modal -->
+     <div
+     class="modal fade"
+     id="exampleModal"
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">      
+     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h1 class="modal-title fs-5" id="exampleModalLabel">
+             Junte-se a RecycleWeb para preservar o planeta através da
+             reciclagem. Faça sua doação!
+           </h1>
+           <button
+             type="button"
+             class="btn-close"
+             data-bs-dismiss="modal"
+             aria-label="Close"
+           ></button>
+         </div>
+         <div class="modal-body">
+           <h2 class="fs-5">Escolha a empresa para qual quer doar:</h2>
+           <select name="cars" id="cars" required>
+             <option value="Terracycle">Escolha...</option>
+             <option value="Terracycle" autocomplete="off">
+               Terracycle
+             </option>
+             <option value="GloLitter" autocomplete="off">GloLitter</option>
+             <option value="Ecopatas" autocomplete="off">
+               Ecopatas
+             </option>
+             <option value="Recicleiros" autocomplete="off">Recicleiros</option>
+           </select>
+           <hr />
+           <h2 class="fs-5">Escolha a quantia a ser doada:</h2>
+           <div class="form-check form-check-inline">
+             <input
+               class="form-check-input"
+               type="radio"
+               name="inlineRadioOptions"
+               id="inlineRadio1"
+               value="option1"
+               autocomplete="off"
+             />
+             <label class="form-check-label" for="inlineRadio1">R$ 10</label>
+           </div>
+           <div class="form-check form-check-inline">
+             <input
+               class="form-check-input"
+               type="radio"
+               name="inlineRadioOptions"
+               id="specifyColor"
+               value="option2"
+               autocomplete="off"
+             />
+             <label class="form-check-label" for="inlineRadio2">R$ 50</label>
+           </div>
+           <div class="form-check form-check-inline">
+             <input
+               class="form-check-input"
+               type="radio"
+               name="inlineRadioOptions"
+               id="specifyColor"
+               value="option3"
+               autocomplete="off"
+               checked
+             />
+             <label class="form-check-label" for="inlineRadio3">R$ 200</label>
+           </div>
+           <a
+             href="#"
+             data-bs-toggle="tooltip"
+             title="Tooltip"
+             class="linkverde"
+             >Doar outro valor</a
+           >
+           <hr />
+           <h2 class="fs-5">Escolha a frequência de doação:</h2>
+           <input
+             type="radio"
+             class="btn-check"
+             name="options"
+             id="option2"
+             autocomplete="off"
+             checked
+           />
+           <label class="btn btn-primary" for="option2">MENSAL</label>
+
+           <input
+             type="radio"
+             class="btn-check"
+             name="options"
+             id="option3"
+             autocomplete="off"
+           />
+           <label class="btn btn-primary" for="option3">ANUAL</label>
+           <hr />
+           <p>
+             Ao fazer uma doação para apoiar a reciclagem e a preservação
+             ambiental por meio do RecycleWeb, você concorda com os
+             <a href="#" data-bs-toggle="tooltip" title="Tooltip"
+               >termos e condições</a
+             >.
+           </p>
+         </div>
+         <div class="modal-footer">
+           <button
+             type="button"
+             class="btn btn-secondary"
+             data-bs-dismiss="modal"
+           >
+             Fechar
+           </button>
+           <button type="button" class="btn btn-primary">Fazer doação</button>
+         </div>
+       </div>
+     </div>
+
+
  
      <script src="js/index.js"></script>
          
