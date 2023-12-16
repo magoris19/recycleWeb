@@ -9,8 +9,15 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
 #exampleModalLabel {
     color: #27AE60;
+    font-size: strong;
+}
+
+#exampleModalLabel2 {
+    color: #ae2727;
     font-size: strong;
 }
 
