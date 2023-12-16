@@ -12,7 +12,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/feedback.css">
     <!--Fim links -->
 
     <!--Jquery-->
@@ -48,24 +47,30 @@
       </nav>
   </header>
 <!-- fim Nav bar-->
-
+ <h1 style="font-size: 80px; margin-left: 600px; color: aliceblue;">Envie sua opnião!</h1>
 <!--Codigo Novo-->
-<div class="w-75 m-auto mt-5">
-<div id="carouselExampleIndicators" class="carousel slide " style="height: 900px;">
+<div class="w-75 m-auto mt-5" >
+<div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner" style="height: 900px;">
-    <div class="carousel-item active">
-      <img src="img/inicial.png" class="d-block w-100" alt="..." style="height: 900px; background-size: cover;">
+  <div class="carousel-inner" style="height: 800px; margin-left: 600px; width: 1000px;">
+    <div class="carousel-item active" >
+      <video class="d-block w-100" autoplay loop muted>
+        <source src="img/pexels-julia-m-cameron-6894191 (2160p) (1).mp4" type="video/mp4">
+      </video>
     </div>
-    <div class="carousel-item" style="height: 900px;">
-      <img src="img/planta.jpg" class="d-block w-100" alt="..." style="height: 900px; background-size: cover;">
+    <div class="carousel-item">
+      <video class="d-block w-100" autoplay loop muted>
+        <source src="img/video (1080p).mp4" type="video/mp4">
+      </video>
     </div>
-    <div class="carousel-item" style="height: 900px;">
-      <img src="img/Tipos recclaveis.jpg" class="d-block w-100" alt="..." style="height: 900px; background-size: cover;">
+    <div class="carousel-item">
+      <video class="d-block w-100" autoplay loop muted>
+        <source src="img/video (2160p).mp4" type="video/mp4">
+      </video>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -81,14 +86,14 @@
 <!--Codigo Novo-->
 
 
-    <!-- Button trigger modal -->
+    <!-- Button trigger modal 
     <div class="d-flex justify-content-center p-5">
         <button type="button" class="btn btn-secondary btn-lg " style="background-color: sienna; color:aliceblue" data-toggle="modal" data-target="#exampleModal">
         Envie seu Feedback!
         </button>
     </div>
-
-    <!-- Modal -->
+    -->
+    <!-- Modal 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
         <div class="modal-dialog" role="document" >
             <div class="modal-content" >
@@ -113,8 +118,19 @@
         </div>
     </div>
     <div class="footer" style="color:rgb(255, 255, 255)" >
-</main>
+</main>-->
 <!--fim modal-->
+ <!--comentario-->
+ <h2 style="color: aliceblue;">Comentario...</h2>
+
+<input type="text" id="meuInput" placeholder="Digite algo..." >
+<button onclick="adicionarItem()">Enviar</button>
+
+<ul id="minhaLista">
+</ul>
+
+
+ <!--Final comentario-->
     </div>
     
      <!-- Whatsapp -->
@@ -124,7 +140,7 @@
 
      <button  type="button"  class="b3" data-bs-toggle="modal" data-bs-target="#exampleModal" >$ </button>
 
-     <!-- Modal -->
+     <!-- Modal do arthur -->
      <div
      class="modal fade"
      id="exampleModal"
@@ -242,13 +258,8 @@
          </div>
        </div>
      </div>
-
-
- 
-     <script src="js/index.js"></script>
-         
-
-
+     
+    <script src="js/index.js"></script>
  <!--efeitos animações JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
